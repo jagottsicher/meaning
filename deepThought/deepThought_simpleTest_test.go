@@ -17,7 +17,7 @@ func TestAskNegative(t *testing.T) {
 	argumentToTestPostive_2 := "myself"
 	argumentToTestPostive_3 := "I"
 	v1, v2 := Ask(argumentToTestPostive_1, argumentToTestPostive_2, argumentToTestPostive_3)
-	if v1 != 0 || v2 != "nichts" {
+	if v1 != 0 || v2 != "nothing" {
 		t.Error("Expected 0 and nichts got ", v1, v2)
 	}
 }

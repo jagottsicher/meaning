@@ -1,6 +1,8 @@
 package deepThought
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAskTableTest(t *testing.T) {
 
@@ -22,5 +24,4 @@ func TestAskTableTest(t *testing.T) {
 			t.Error("Expected", v.result1, "and", v.result2, "got", v1, "and", v2)
 		}
 	}
-
 }
