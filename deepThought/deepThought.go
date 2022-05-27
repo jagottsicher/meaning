@@ -33,5 +33,5 @@ func Ask(life, universe, everything string) (int8, string) {
 	if life == Uqlue.thing1 && universe == Uqlue.thing2 && everything == Uqlue.thing3 {
 		return 42, InLife
 	}
-	return 0, "nichts"
+	return 0, "nothing"
 }
